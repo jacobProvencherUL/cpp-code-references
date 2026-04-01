@@ -1,0 +1,4 @@
+<map id="Carre" name="Carre">
+<area shape="rect" id="node1" title="Cette classe permet de gérer des carrés. Elle hérite de Polygone." alt="" coords="18,80,75,107"/>
+<area shape="rect" id="node2" href="$class_polygone.html" title="Classe abstraite qui permet de gérer des polygones." alt="" coords="5,5,88,32"/>
+</map>

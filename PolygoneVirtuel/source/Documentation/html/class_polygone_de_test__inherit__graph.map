@@ -1,0 +1,4 @@
+<map id="PolygoneDeTest" name="PolygoneDeTest">
+<area shape="rect" id="node1" title="classe de test permettant de tester la classe abstraite Polygone" alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node2" href="$class_polygone.html" title="Classe abstraite qui permet de gérer des polygones." alt="" coords="27,5,110,32"/>
+</map>

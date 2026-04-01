@@ -1,0 +1,4 @@
+<map id="Carre::reqNomFormate" name="Carre::reqNomFormate">
+<area shape="rect" id="node1" title="retourne le nom du polygone méthode virtuelle" alt="" coords="108,5,279,32"/>
+<area shape="rect" id="node2" href="$testeur_carre_8cpp.html#aa7ff02cc75e4d9a02f2cc8b089d8c20a" title="Test de la méthode virtual std::string reqNomFormate() const cas valide reqNomFormate : vérification ..." alt="" coords="5,5,60,32"/>
+</map>

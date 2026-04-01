@@ -1,0 +1,5 @@
+<map id="Triangle::afficher" name="Triangle::afficher">
+<area shape="rect" id="node1" title="sortie dans un flux des points du triangle" alt="" coords="5,31,136,57"/>
+<area shape="rect" id="node2" href="$class_point.html#af8b63442fbd22d8e7638ab1040b64b85" title="Affichage des coordonnées du point." alt="" coords="200,5,312,32"/>
+<area shape="rect" id="node3" href="$class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3" title="Méthode permettant d&#39;obtenir le point du polygone se trouvant à une position précise." alt="" coords="184,56,328,83"/>
+</map>

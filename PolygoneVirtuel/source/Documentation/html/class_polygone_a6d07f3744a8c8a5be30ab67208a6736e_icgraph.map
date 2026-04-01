@@ -1,0 +1,6 @@
+<map id="Polygone::asgPoint" name="Polygone::asgPoint">
+<area shape="rect" id="node1" title="Assignation d&#39;un point au polygone." alt="" coords="213,56,360,83"/>
+<area shape="rect" id="node2" href="$class_carre.html#a069f9bea5732d32ea5250d5cde3cae8d" title="Constructeur de la classe Carre." alt="" coords="35,5,135,32"/>
+<area shape="rect" id="node3" href="$class_rectangle.html#aab853cb94296d3293b5c213889f6b0fa" title="Constructeur de la classe Rectangle." alt="" coords="5,56,165,83"/>
+<area shape="rect" id="node4" href="$class_triangle.html#a10b72ea8c2614312acd7747cbf212b5a" title="Constructeur de la classe Triangle." alt="" coords="19,107,151,133"/>
+</map>

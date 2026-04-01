@@ -1,0 +1,4 @@
+<map id="Triangle::afficher" name="Triangle::afficher">
+<area shape="rect" id="node1" title="sortie dans un flux des points du triangle" alt="" coords="108,5,239,32"/>
+<area shape="rect" id="node2" href="$testeur_triangle_8cpp.html#a2c3f983e0fc74169bb4732537cae3584" title="Test de la méthode virtual void afficher (std::ostream&amp; p_os) const." alt="" coords="5,5,60,32"/>
+</map>

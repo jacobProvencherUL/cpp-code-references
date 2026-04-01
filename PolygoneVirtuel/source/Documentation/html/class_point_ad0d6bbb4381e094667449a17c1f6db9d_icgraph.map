@@ -1,0 +1,8 @@
+<map id="Point::reqx" name="Point::reqx">
+<area shape="rect" id="node1" title="Méthode d&#39;accès au point." alt="" coords="440,81,532,108"/>
+<area shape="rect" id="node2" href="$class_point.html#a48e4bb105cb2bb21e8c3bb19dd4c36e0" title="Méthode permettant d&#39;agrandir un point." alt="" coords="253,5,371,32"/>
+<area shape="rect" id="node3" href="$class_carre.html#a069f9bea5732d32ea5250d5cde3cae8d" title="Constructeur de la classe Carre." alt="" coords="262,56,362,83"/>
+<area shape="rect" id="node4" href="$class_rectangle.html#aab853cb94296d3293b5c213889f6b0fa" title="Constructeur de la classe Rectangle." alt="" coords="232,107,392,133"/>
+<area shape="rect" id="node5" href="$class_point.html#a6f7cc3be5b982135634b8d633208f719" title="Méthode permettant d&#39;obtenir la distance entre deux points méthode statique." alt="" coords="241,157,383,184"/>
+<area shape="rect" id="node6" href="$class_polygone.html#a54d02c4b179c10a6e2123f9b0beb2016" title="Méthode permettant d&#39;obtenir la circonférence du polygone." alt="" coords="5,157,184,184"/>
+</map>

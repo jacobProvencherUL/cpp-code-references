@@ -1,0 +1,6 @@
+<map id="Carre::Carre" name="Carre::Carre">
+<area shape="rect" id="node1" title="Constructeur de la classe Carre." alt="" coords="5,56,105,83"/>
+<area shape="rect" id="node2" href="$class_polygone.html#a6d07f3744a8c8a5be30ab67208a6736e" title="Assignation d&#39;un point au polygone." alt="" coords="153,5,300,32"/>
+<area shape="rect" id="node3" href="$class_point.html#ad0d6bbb4381e094667449a17c1f6db9d" title="Méthode d&#39;accès au point." alt="" coords="181,56,273,83"/>
+<area shape="rect" id="node4" href="$class_point.html#a5718a601e5f8bce1ec03691be75f7463" title="Méthode d&#39;accès au point." alt="" coords="181,107,273,133"/>
+</map>

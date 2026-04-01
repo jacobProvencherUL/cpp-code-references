@@ -1,0 +1,7 @@
+<map id="Polygone" name="Polygone">
+<area shape="rect" id="node1" title="Classe abstraite qui permet de gérer des polygones." alt="" coords="174,5,257,32"/>
+<area shape="rect" id="node2" href="$class_carre.html" title="Cette classe permet de gérer des carrés. Elle hérite de Polygone." alt="" coords="5,80,63,107"/>
+<area shape="rect" id="node3" href="$class_polygone_de_test.html" title="classe de test permettant de tester la classe abstraite Polygone" alt="" coords="87,80,213,107"/>
+<area shape="rect" id="node4" href="$class_rectangle.html" title="Cette classe permet de gérer des rectangles. Elle hérite de Polygone." alt="" coords="237,80,324,107"/>
+<area shape="rect" id="node5" href="$class_triangle.html" title="Cette classe permet de gérer des triangles. Elle hérite de Polygone." alt="" coords="348,80,421,107"/>
+</map>

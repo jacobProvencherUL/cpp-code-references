@@ -1,0 +1,4 @@
+<map id="Triangle" name="Triangle">
+<area shape="rect" id="node1" title="Cette classe permet de gérer des triangles. Elle hérite de Polygone." alt="" coords="10,80,83,107"/>
+<area shape="rect" id="node2" href="$class_polygone.html" title="Classe abstraite qui permet de gérer des polygones." alt="" coords="5,5,88,32"/>
+</map>

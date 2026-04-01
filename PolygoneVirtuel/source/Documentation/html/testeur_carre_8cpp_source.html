@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Polygone virtuel:  Fichier source de tests/testeurCarre.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Polygone virtuel
+   </div>
+   <div id="projectbrief">exemple de code d&#39;une hiérarchie de classe permettant le polymorphisme</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('testeur_carre_8cpp_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">testeurCarre.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="testeur_carre_8cpp.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include&lt;gtest/gtest.h&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_carre_8h.html">Carre.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="testeur_carre_8cpp.html#abaa3811e8fbc688a1fc2fd488f8269c7">   17</a></span>&#160;<a class="code" href="testeur_carre_8cpp.html#abaa3811e8fbc688a1fc2fd488f8269c7">TEST</a> (CarreTest, Constructeur_AvecParametre_objetValide)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <a class="code" href="class_carre.html">Carre</a> carreTest (<a class="code" href="class_point.html">Point</a> (1, 2), 4);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  ASSERT_EQ (carreTest.<a class="code" href="class_polygone.html#a798ea18b4fc0952a13f0b6db3ebe50a4">reqNbPoints</a> (), 4);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  ASSERT_EQ (carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (1).<a class="code" href="class_point.html#ad0d6bbb4381e094667449a17c1f6db9d">reqx</a> (), 1);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  ASSERT_EQ (carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (1).<a class="code" href="class_point.html#a5718a601e5f8bce1ec03691be75f7463">reqy</a> (), 2);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  ASSERT_EQ (carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (2).<a class="code" href="class_point.html#ad0d6bbb4381e094667449a17c1f6db9d">reqx</a> (), 5);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  ASSERT_EQ (carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (2).<a class="code" href="class_point.html#a5718a601e5f8bce1ec03691be75f7463">reqy</a> (), 2);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  ASSERT_EQ (carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (3).<a class="code" href="class_point.html#ad0d6bbb4381e094667449a17c1f6db9d">reqx</a> (), 5);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  ASSERT_EQ (carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (3).<a class="code" href="class_point.html#a5718a601e5f8bce1ec03691be75f7463">reqy</a> (), 6);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  ASSERT_EQ (carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (4).<a class="code" href="class_point.html#ad0d6bbb4381e094667449a17c1f6db9d">reqx</a> (), 1);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  ASSERT_EQ (carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (4).<a class="code" href="class_point.html#a5718a601e5f8bce1ec03691be75f7463">reqy</a> (), 6);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="testeur_carre_8cpp.html#ac883f2f80ef803e267185a5aa401bc4a">   37</a></span>&#160;<a class="code" href="testeur_carre_8cpp.html#abaa3811e8fbc688a1fc2fd488f8269c7">TEST</a> (CarreTest, AfficherCarre_formatValide)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <a class="code" href="class_carre.html">Carre</a> carreTest (<a class="code" href="class_point.html">Point</a> (3, 2), 1);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  std::ostringstream os_attendu, os_test;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  os_attendu &lt;&lt; <span class="stringliteral">&quot;Carre &quot;</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (1).<a class="code" href="class_point.html#af8b63442fbd22d8e7638ab1040b64b85">afficher</a> (os_attendu);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  os_attendu &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (2).<a class="code" href="class_point.html#af8b63442fbd22d8e7638ab1040b64b85">afficher</a> (os_attendu);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  os_attendu &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (3).<a class="code" href="class_point.html#af8b63442fbd22d8e7638ab1040b64b85">afficher</a> (os_attendu);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  os_attendu &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  carreTest.<a class="code" href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">reqPoint</a> (4).<a class="code" href="class_point.html#af8b63442fbd22d8e7638ab1040b64b85">afficher</a> (os_attendu);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  carreTest.<a class="code" href="class_carre.html#ac0a5c483e05a5047f30fd6b92649a2e8">afficher</a> (os_test);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  ASSERT_EQ (os_test.str (), os_attendu.str ());</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="testeur_carre_8cpp.html#aa7ff02cc75e4d9a02f2cc8b089d8c20a">   60</a></span>&#160;<a class="code" href="testeur_carre_8cpp.html#abaa3811e8fbc688a1fc2fd488f8269c7">TEST</a> (CarreTest, reqNomFormate_formatValide)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;{</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <a class="code" href="class_carre.html">Carre</a> carreTest (<a class="code" href="class_point.html">Point</a> (3, 2), 1);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  std::ostringstream os_attendu;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  os_attendu &lt;&lt; <span class="stringliteral">&quot;Polygone : &quot;</span> &lt;&lt; <span class="stringliteral">&quot;Carre&quot;</span>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  ASSERT_EQ (carreTest.<a class="code" href="class_carre.html#ab6cc163e46456a8e7bf4107c9b7d76c8">reqNomFormate</a> (), os_attendu.str ());</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
+<div class="ttc" id="a_carre_8h_html"><div class="ttname"><a href="_carre_8h.html">Carre.h</a></div><div class="ttdoc">Déclaration de la classe Carre qui hérite de la classe Polygone.</div></div>
+<div class="ttc" id="aclass_carre_html"><div class="ttname"><a href="class_carre.html">Carre</a></div><div class="ttdoc">Cette classe permet de gérer des carrés. Elle hérite de Polygone.</div><div class="ttdef"><b>Definition:</b> <a href="_carre_8h_source.html#l00018">Carre.h:19</a></div></div>
+<div class="ttc" id="aclass_carre_html_ab6cc163e46456a8e7bf4107c9b7d76c8"><div class="ttname"><a href="class_carre.html#ab6cc163e46456a8e7bf4107c9b7d76c8">Carre::reqNomFormate</a></div><div class="ttdeci">std::string reqNomFormate() const override</div><div class="ttdoc">retourne le nom du polygone méthode virtuelle</div><div class="ttdef"><b>Definition:</b> <a href="_carre_8cpp_source.html#l00049">Carre.cpp:49</a></div></div>
+<div class="ttc" id="aclass_carre_html_ac0a5c483e05a5047f30fd6b92649a2e8"><div class="ttname"><a href="class_carre.html#ac0a5c483e05a5047f30fd6b92649a2e8">Carre::afficher</a></div><div class="ttdeci">void afficher(std::ostream &amp;p_os) const override</div><div class="ttdoc">sortie dans un flux des points du carré</div><div class="ttdef"><b>Definition:</b> <a href="_carre_8cpp_source.html#l00031">Carre.cpp:31</a></div></div>
+<div class="ttc" id="aclass_point_html"><div class="ttname"><a href="class_point.html">Point</a></div><div class="ttdoc">Cette classe permet de gérer des points en coordonnées cartésiennes.</div><div class="ttdef"><b>Definition:</b> <a href="_point_8h_source.html#l00017">Point.h:18</a></div></div>
+<div class="ttc" id="aclass_point_html_a5718a601e5f8bce1ec03691be75f7463"><div class="ttname"><a href="class_point.html#a5718a601e5f8bce1ec03691be75f7463">Point::reqy</a></div><div class="ttdeci">double reqy() const</div><div class="ttdoc">Méthode d'accès au point.</div><div class="ttdef"><b>Definition:</b> <a href="_point_8cpp_source.html#l00033">Point.cpp:33</a></div></div>
+<div class="ttc" id="aclass_point_html_ad0d6bbb4381e094667449a17c1f6db9d"><div class="ttname"><a href="class_point.html#ad0d6bbb4381e094667449a17c1f6db9d">Point::reqx</a></div><div class="ttdeci">double reqx() const</div><div class="ttdoc">Méthode d'accès au point.</div><div class="ttdef"><b>Definition:</b> <a href="_point_8cpp_source.html#l00023">Point.cpp:23</a></div></div>
+<div class="ttc" id="aclass_point_html_af8b63442fbd22d8e7638ab1040b64b85"><div class="ttname"><a href="class_point.html#af8b63442fbd22d8e7638ab1040b64b85">Point::afficher</a></div><div class="ttdeci">void afficher(std::ostream &amp;p_os) const</div><div class="ttdoc">Affichage des coordonnées du point.</div><div class="ttdef"><b>Definition:</b> <a href="_point_8cpp_source.html#l00077">Point.cpp:77</a></div></div>
+<div class="ttc" id="aclass_polygone_html_a6a2881ff4c55a19eeae6fa56bc2610b3"><div class="ttname"><a href="class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3">Polygone::reqPoint</a></div><div class="ttdeci">const Point &amp; reqPoint(int p_position) const</div><div class="ttdoc">Méthode permettant d'obtenir le point du polygone se trouvant à une position précise.</div><div class="ttdef"><b>Definition:</b> <a href="_polygone_8cpp_source.html#l00028">Polygone.cpp:28</a></div></div>
+<div class="ttc" id="aclass_polygone_html_a798ea18b4fc0952a13f0b6db3ebe50a4"><div class="ttname"><a href="class_polygone.html#a798ea18b4fc0952a13f0b6db3ebe50a4">Polygone::reqNbPoints</a></div><div class="ttdeci">int reqNbPoints() const</div><div class="ttdoc">Méthode d'accès au nombre de points du polygone.</div><div class="ttdef"><b>Definition:</b> <a href="_polygone_8cpp_source.html#l00106">Polygone.cpp:106</a></div></div>
+<div class="ttc" id="atesteur_carre_8cpp_html_abaa3811e8fbc688a1fc2fd488f8269c7"><div class="ttname"><a href="testeur_carre_8cpp.html#abaa3811e8fbc688a1fc2fd488f8269c7">TEST</a></div><div class="ttdeci">TEST(CarreTest, Constructeur_AvecParametre_objetValide)</div><div class="ttdoc">Test du Constructeur Carre(const Point&amp; p_point, int p_dim); cas valide ConstructeurAvecParametre: Ca...</div><div class="ttdef"><b>Definition:</b> <a href="testeur_carre_8cpp_source.html#l00017">testeurCarre.cpp:17</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_59425e443f801f1f2fd8bbe4959a3ccf.html">tests</a></li><li class="navelem"><a class="el" href="testeur_carre_8cpp.html">testeurCarre.cpp</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<map id="TEST" name="TEST">
+<area shape="rect" id="node1" title="Test du Constructeur Triangle(const Point&amp; p_point1, const Point&amp; p_point2, const Point&amp; p_point3);." alt="" coords="5,81,60,108"/>
+<area shape="rect" id="node2" href="$class_polygone.html#a798ea18b4fc0952a13f0b6db3ebe50a4" title="Méthode d&#39;accès au nombre de points du polygone." alt="" coords="108,5,277,32"/>
+<area shape="rect" id="node3" href="$class_polygone.html#a6a2881ff4c55a19eeae6fa56bc2610b3" title="Méthode permettant d&#39;obtenir le point du polygone se trouvant à une position précise." alt="" coords="121,56,265,83"/>
+<area shape="rect" id="node4" href="$class_point.html#ad0d6bbb4381e094667449a17c1f6db9d" title="Méthode d&#39;accès au point." alt="" coords="147,107,239,133"/>
+<area shape="rect" id="node5" href="$class_point.html#a5718a601e5f8bce1ec03691be75f7463" title="Méthode d&#39;accès au point." alt="" coords="147,157,239,184"/>
+</map>

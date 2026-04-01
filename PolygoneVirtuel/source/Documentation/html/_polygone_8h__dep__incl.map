@@ -1,0 +1,14 @@
+<map id="Polygone.h" name="Polygone.h">
+<area shape="rect" id="node1" title="Déclaration de la classe Polygone, classe abstraite." alt="" coords="388,5,483,32"/>
+<area shape="rect" id="node2" href="$_carre_8h.html" title="Déclaration de la classe Carre qui hérite de la classe Polygone." alt="" coords="159,80,229,107"/>
+<area shape="rect" id="node5" href="$_polygone_8cpp.html" title="Implantation de la classe Polygone." alt="" coords="253,80,362,107"/>
+<area shape="rect" id="node6" href="$_rectangle_8h.html" title="Déclaration de la classe rectangle qui hérite de la classe Polygone." alt="" coords="386,80,485,107"/>
+<area shape="rect" id="node9" href="$_polygone_testeur_8cpp_source.html" title=" " alt="" coords="509,80,700,107"/>
+<area shape="rect" id="node10" href="$_triangle_8h.html" title="Déclaration de la classe Triangle qui hérite de la classe Polygone." alt="" coords="725,80,810,107"/>
+<area shape="rect" id="node3" href="$_carre_8cpp.html" title="Implantation de la classe Carre." alt="" coords="5,155,89,181"/>
+<area shape="rect" id="node4" href="$_carre_testeur_8cpp_source.html" title=" " alt="" coords="113,155,280,181"/>
+<area shape="rect" id="node7" href="$_rectangle_8cpp.html" title="Implantation de la classe Rectangle." alt="" coords="311,155,426,181"/>
+<area shape="rect" id="node8" href="$_rectangle_testeur_8cpp_source.html" title=" " alt="" coords="451,155,647,181"/>
+<area shape="rect" id="node11" href="$_triangle_testeur_8cpp_source.html" title=" " alt="" coords="675,155,857,181"/>
+<area shape="rect" id="node12" href="$_triangle_8cpp.html" title="Implantation de la classe Triangle." alt="" coords="881,155,981,181"/>
+</map>

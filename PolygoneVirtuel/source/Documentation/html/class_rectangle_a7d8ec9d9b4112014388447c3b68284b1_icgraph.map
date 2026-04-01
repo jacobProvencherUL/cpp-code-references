@@ -1,0 +1,4 @@
+<map id="Rectangle::reqNomFormate" name="Rectangle::reqNomFormate">
+<area shape="rect" id="node1" title="retourne le nom du polygone méthode virtuelle" alt="" coords="108,5,309,32"/>
+<area shape="rect" id="node2" href="$testeur_rectangle_8cpp.html#aeece6e47c923881b7b3d4c1d2140144b" title="Test de la méthode virtual std::string reqNomFormate() const cas valide reqNomFormate : vérification ..." alt="" coords="5,5,60,32"/>
+</map>

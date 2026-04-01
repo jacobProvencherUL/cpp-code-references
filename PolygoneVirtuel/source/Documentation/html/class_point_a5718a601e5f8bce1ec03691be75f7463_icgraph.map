@@ -1,0 +1,7 @@
+<map id="Point::reqy" name="Point::reqy">
+<area shape="rect" id="node1" title="Méthode d&#39;accès au point." alt="" coords="440,56,532,83"/>
+<area shape="rect" id="node2" href="$class_carre.html#a069f9bea5732d32ea5250d5cde3cae8d" title="Constructeur de la classe Carre." alt="" coords="262,5,362,32"/>
+<area shape="rect" id="node3" href="$class_rectangle.html#aab853cb94296d3293b5c213889f6b0fa" title="Constructeur de la classe Rectangle." alt="" coords="232,56,392,83"/>
+<area shape="rect" id="node4" href="$class_point.html#a6f7cc3be5b982135634b8d633208f719" title="Méthode permettant d&#39;obtenir la distance entre deux points méthode statique." alt="" coords="241,107,383,133"/>
+<area shape="rect" id="node5" href="$class_polygone.html#a54d02c4b179c10a6e2123f9b0beb2016" title="Méthode permettant d&#39;obtenir la circonférence du polygone." alt="" coords="5,107,184,133"/>
+</map>

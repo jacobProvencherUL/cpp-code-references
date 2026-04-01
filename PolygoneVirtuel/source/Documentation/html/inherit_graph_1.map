@@ -1,0 +1,7 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$class_polygone.html" title="Classe abstraite qui permet de gérer des polygones." alt="" coords="5,81,88,108"/>
+<area shape="rect" id="node2" href="$class_carre.html" title="Cette classe permet de gérer des carrés. Elle hérite de Polygone." alt="" coords="171,5,228,32"/>
+<area shape="rect" id="node3" href="$class_polygone_de_test.html" title="classe de test permettant de tester la classe abstraite Polygone" alt="" coords="136,56,263,83"/>
+<area shape="rect" id="node4" href="$class_rectangle.html" title="Cette classe permet de gérer des rectangles. Elle hérite de Polygone." alt="" coords="156,107,243,133"/>
+<area shape="rect" id="node5" href="$class_triangle.html" title="Cette classe permet de gérer des triangles. Elle hérite de Polygone." alt="" coords="163,157,236,184"/>
+</map>

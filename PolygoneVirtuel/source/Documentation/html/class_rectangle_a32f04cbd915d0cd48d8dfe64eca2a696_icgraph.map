@@ -1,0 +1,4 @@
+<map id="Rectangle::afficher" name="Rectangle::afficher">
+<area shape="rect" id="node1" title="sortie dans un flux des points du rectangle" alt="" coords="108,5,252,32"/>
+<area shape="rect" id="node2" href="$testeur_rectangle_8cpp.html#ac9c9e7af09c146ced86c44ea44f0dbc7" title="Test de la méthode virtual void afficher (std::ostream&amp; os) const cas valide AfficherRectangle : Crée..." alt="" coords="5,5,60,32"/>
+</map>

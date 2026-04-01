@@ -1,0 +1,4 @@
+<map id="Polygone::reqNbPoints" name="Polygone::reqNbPoints">
+<area shape="rect" id="node1" title="Méthode d&#39;accès au nombre de points du polygone." alt="" coords="108,5,277,32"/>
+<area shape="rect" id="node2" href="$testeur_carre_8cpp.html#abaa3811e8fbc688a1fc2fd488f8269c7" title="Test du Constructeur Carre(const Point&amp; p_point, int p_dim); cas valide ConstructeurAvecParametre: Ca..." alt="" coords="5,5,60,32"/>
+</map>

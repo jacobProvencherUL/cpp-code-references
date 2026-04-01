@@ -1,0 +1,4 @@
+<map id="Carre::afficher" name="Carre::afficher">
+<area shape="rect" id="node1" title="sortie dans un flux des points du carré" alt="" coords="108,5,223,32"/>
+<area shape="rect" id="node2" href="$testeur_carre_8cpp.html#ac883f2f80ef803e267185a5aa401bc4a" title="Test de la méthode virtual void afficher (std::ostream&amp; p_os) const cas valide AfficherCarre : Créer ..." alt="" coords="5,5,60,32"/>
+</map>

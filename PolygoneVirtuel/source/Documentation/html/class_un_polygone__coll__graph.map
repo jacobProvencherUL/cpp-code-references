@@ -1,0 +1,6 @@
+<map id="UnPolygone" name="UnPolygone">
+<area shape="rect" id="node1" title="Fixture UnPolygone pour la création d&#39;un objet Polygone pour les tests." alt="" coords="27,171,127,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,81,107,108"/>
+<area shape="rect" id="node3" href="$class_polygone_de_test.html" title="classe de test permettant de tester la classe abstraite Polygone" alt="" coords="131,81,258,108"/>
+<area shape="rect" id="node4" href="$class_polygone.html" title="Classe abstraite qui permet de gérer des polygones." alt="" coords="153,5,236,32"/>
+</map>

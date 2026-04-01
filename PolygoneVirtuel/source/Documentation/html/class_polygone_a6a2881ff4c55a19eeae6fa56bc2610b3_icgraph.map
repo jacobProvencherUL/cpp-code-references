@@ -1,0 +1,6 @@
+<map id="Polygone::reqPoint" name="Polygone::reqPoint">
+<area shape="rect" id="node1" title="Méthode permettant d&#39;obtenir le point du polygone se trouvant à une position précise." alt="" coords="197,56,341,83"/>
+<area shape="rect" id="node2" href="$class_carre.html#ac0a5c483e05a5047f30fd6b92649a2e8" title="sortie dans un flux des points du carré" alt="" coords="20,5,135,32"/>
+<area shape="rect" id="node3" href="$class_rectangle.html#a32f04cbd915d0cd48d8dfe64eca2a696" title="sortie dans un flux des points du rectangle" alt="" coords="5,56,149,83"/>
+<area shape="rect" id="node4" href="$class_triangle.html#a0f5c465c1437a4cac9cf860787d20e0a" title="sortie dans un flux des points du triangle" alt="" coords="12,107,143,133"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="UnPoint" name="UnPoint">
+<area shape="rect" id="node1" title="fixture pour créer un point pour les tests" alt="" coords="70,95,143,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,107,32"/>
+<area shape="rect" id="node3" href="$class_point.html" title="Cette classe permet de gérer des points en coordonnées cartésiennes." alt="" coords="131,5,186,32"/>
+</map>

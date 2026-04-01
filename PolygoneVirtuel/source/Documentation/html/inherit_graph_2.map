@@ -1,0 +1,5 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,107,57"/>
+<area shape="rect" id="node2" href="$class_un_point.html" title="fixture pour créer un point pour les tests" alt="" coords="168,5,241,32"/>
+<area shape="rect" id="node3" href="$class_un_polygone.html" title="Fixture UnPolygone pour la création d&#39;un objet Polygone pour les tests." alt="" coords="155,56,255,83"/>
+</map>

@@ -1,0 +1,11 @@
+fonctions, 9
+standard, 8
+utilisation, 11
+fichier, 7
+standard, 8
+formate, 7
+en, 2
+mode, 4
+lecture, 7
+standard, 8
+fonctions, 9

@@ -1,0 +1,4 @@
+<map id="labo10::Patron::reqEmployeFormate" name="labo10::Patron::reqEmployeFormate">
+<area shape="rect" id="node1" title="Affiche les informations du Patron sous forme d&#39;une chaîne de caractère formatee." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="node2" href="$classlabo10_1_1_employe.html#a25a67e9360a6e73cf3c1aead02db8554" title="Affichage du nom et prénom de l&#39;employé." alt="" coords="255,5,472,47"/>
+</map>

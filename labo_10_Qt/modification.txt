@@ -1,0 +1,1 @@
+Respect strictement l’énoncé du Labo. Aucune vérification sur la saisie n’est effectuée. On suppose que l’utilisateur entre toutes les bonnes informations avant d’enregistrer la saisie

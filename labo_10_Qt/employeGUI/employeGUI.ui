@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EmployeGUIClass</class>
+ <widget class="QMainWindow" name="EmployeGUIClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>944</width>
+    <height>643</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>651</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <column>
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Prenom</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Date de naissance</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>944</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuAjouter_employe">
+     <property name="title">
+      <string>Ajouter employe</string>
+     </property>
+     <addaction name="actionCommission"/>
+     <addaction name="actionHoraire"/>
+     <addaction name="actionPatron"/>
+    </widget>
+    <addaction name="menuAjouter_employe"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionCommission">
+   <property name="text">
+    <string>Commission</string>
+   </property>
+  </action>
+  <action name="actionHoraire">
+   <property name="text">
+    <string>Horaire</string>
+   </property>
+  </action>
+  <action name="actionPatron">
+   <property name="text">
+    <string>Patron</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionQuitter</sender>
+   <signal>triggered()</signal>
+   <receiver>EmployeGUIClass</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

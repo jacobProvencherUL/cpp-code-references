@@ -1,0 +1,8 @@
+<map id="TEST" name="TEST">
+<area shape="rect" id="node1" title=" " alt="" coords="5,137,60,163"/>
+<area shape="rect" id="node2" href="$classlabo10_1_1_employe.html#af747e7f17adadb90adf970c7742c5b20" title="Accesseur date de naissance de l&#39;employé" alt="" coords="132,5,323,47"/>
+<area shape="rect" id="node3" href="$classlabo10_1_1_employe_horaire.html#aa59993749ce5cd80c7f4fb08f81f73ed" title="Accesseur sur les heures de travail de l&#39;employé" alt="" coords="138,71,317,112"/>
+<area shape="rect" id="node4" href="$classlabo10_1_1_employe.html#a0588b16a8602f71707827e051c200aa1" title="Accesseur nom de l&#39;employé" alt="" coords="108,137,347,163"/>
+<area shape="rect" id="node5" href="$classlabo10_1_1_employe.html#a840d5317b9713e6f9c9ce577ab41bbcb" title="Accesseur prénom de l&#39;employé" alt="" coords="122,187,333,214"/>
+<area shape="rect" id="node6" href="$classlabo10_1_1_employe_horaire.html#ad179f14cbe6d7cc8482d046299f9148c" title="Accesseur sur le taux horaire de l&#39;employé" alt="" coords="138,239,317,280"/>
+</map>

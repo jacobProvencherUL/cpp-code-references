@@ -1,0 +1,6 @@
+<map id="labo10::Employe::reqEmployeFormate" name="labo10::Employe::reqEmployeFormate">
+<area shape="rect" id="node1" title="Affichage du nom et prénom de l&#39;employé." alt="" coords="265,71,483,112"/>
+<area shape="rect" id="node2" href="$classlabo10_1_1_patron.html#ae2c6a41aece9b09412547e080378d702" title="Affiche les informations du Patron sous forme d&#39;une chaîne de caractère formatee." alt="" coords="11,5,212,47"/>
+<area shape="rect" id="node3" href="$classlabo10_1_1_employe_horaire.html#a3337d7fe7b90d5af4346f70915cb6d0a" title="Affiche les informations de l&#39;employé horaire sous forme d&#39;une chaîne de caractère formatée." alt="" coords="22,71,201,112"/>
+<area shape="rect" id="node4" href="$classlabo10_1_1_employe_commission.html#a4499074b1711dd58dddba9b88655f4e8" title="Affiche les informations de l&#39;employé commission sous forme d&#39;une chaîne de caractère formatée." alt="" coords="5,136,217,177"/>
+</map>

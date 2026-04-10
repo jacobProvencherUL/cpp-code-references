@@ -1,0 +1,4 @@
+<map id="util::Date::reqAnnee" name="util::Date::reqAnnee">
+<area shape="rect" id="node1" title="retourne l&#39;année de la date" alt="" coords="220,5,372,32"/>
+<area shape="rect" id="node2" href="$classutil_1_1_date.html#a3b88f9a1692395518a45b282a19f10e8" title="surcharge de la fonction &lt;&lt; d&#39;écriture dans un flux de sortie" alt="" coords="5,5,172,32"/>
+</map>

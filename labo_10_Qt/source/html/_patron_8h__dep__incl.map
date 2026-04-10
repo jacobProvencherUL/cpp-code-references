@@ -1,0 +1,5 @@
+<map id="Patron.h" name="Patron.h">
+<area shape="rect" id="node1" title="Classe Patron, dérivée de la classe Employe." alt="" coords="81,5,156,32"/>
+<area shape="rect" id="node2" href="$_patron_8cpp.html" title="Implémentation de la classe Patron." alt="" coords="5,80,96,107"/>
+<area shape="rect" id="node3" href="$_patron_testeur_8cpp.html" title="Test unitaire de la classe Patron." alt="" coords="120,80,256,107"/>
+</map>

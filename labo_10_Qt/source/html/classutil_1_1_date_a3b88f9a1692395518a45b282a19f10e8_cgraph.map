@@ -1,0 +1,6 @@
+<map id="util::Date::operator&lt;&lt;" name="util::Date::operator&lt;&lt;">
+<area shape="rect" id="node1" title="surcharge de la fonction &lt;&lt; d&#39;écriture dans un flux de sortie" alt="" coords="5,56,172,83"/>
+<area shape="rect" id="node2" href="$classutil_1_1_date.html#aa7c4b428456da55a2e3769e93ad9bb8d" title="retourne l&#39;année de la date" alt="" coords="220,5,372,32"/>
+<area shape="rect" id="node3" href="$classutil_1_1_date.html#aa2b8c7a6e23e9244a5bac8342484d3b8" title="retourne le jour de la date" alt="" coords="228,56,364,83"/>
+<area shape="rect" id="node4" href="$classutil_1_1_date.html#a8002c391b812945da68b16cb4a424460" title="retourne le mois de la date" alt="" coords="225,107,367,133"/>
+</map>

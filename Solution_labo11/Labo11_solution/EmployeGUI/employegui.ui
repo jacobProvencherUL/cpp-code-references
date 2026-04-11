@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EmployeGUIClass</class>
+ <widget class="QMainWindow" name="EmployeGUIClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>905</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion Employe GIF-1003</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>561</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <property name="columnCount">
+     <number>3</number>
+    </property>
+    <column>
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Prenom</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Date de naissance</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>10</y>
+      <width>311</width>
+      <height>521</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>905</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionCharger_a_partir_de"/>
+    <addaction name="actionSauvegarder_dans"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuActions">
+    <property name="title">
+     <string>Actions</string>
+    </property>
+    <widget class="QMenu" name="menuAjouter_un_employer">
+     <property name="title">
+      <string>Ajouter un employer</string>
+     </property>
+     <addaction name="actionCommis"/>
+     <addaction name="actionHoraire"/>
+     <addaction name="actionPatron"/>
+    </widget>
+    <widget class="QMenu" name="menuSupprimer_un_employe">
+     <property name="title">
+      <string>Supprimer un employe</string>
+     </property>
+     <addaction name="actionCommis_sup"/>
+     <addaction name="actionHoraire_sup"/>
+     <addaction name="actionPatron_sup"/>
+    </widget>
+    <addaction name="menuAjouter_un_employer"/>
+    <addaction name="menuSupprimer_un_employe"/>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuActions"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionCharger_a_partir_de">
+   <property name="text">
+    <string>Charger a partir de ..</string>
+   </property>
+  </action>
+  <action name="actionSauvegarder_dans">
+   <property name="text">
+    <string>Sauvegarder dans ...</string>
+   </property>
+  </action>
+  <action name="actionCommis">
+   <property name="text">
+    <string>Commis</string>
+   </property>
+  </action>
+  <action name="actionHoraire">
+   <property name="text">
+    <string>Horaire</string>
+   </property>
+  </action>
+  <action name="actionPatron">
+   <property name="text">
+    <string>Patron</string>
+   </property>
+  </action>
+  <action name="actionCommis_sup">
+   <property name="text">
+    <string>Commis</string>
+   </property>
+  </action>
+  <action name="actionHoraire_sup">
+   <property name="text">
+    <string>Horaire</string>
+   </property>
+  </action>
+  <action name="actionPatron_sup">
+   <property name="text">
+    <string>Patron</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>tableWidget</sender>
+   <signal>cellClicked(int,int)</signal>
+   <receiver>EmployeGUIClass</receiver>
+   <slot>selectionLigneTable()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>290</x>
+     <y>310</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>452</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>selectionLigneTable()</slot>
+ </slots>
+</ui>

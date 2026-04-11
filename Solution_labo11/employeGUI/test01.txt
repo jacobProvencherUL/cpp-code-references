@@ -1,0 +1,4 @@
+
+ Employé à commission: Commis jean-paul
+ Employé horaire : Horraire jean-paul
+ Patron : Patron Jean-Paul
